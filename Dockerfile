@@ -27,7 +27,7 @@ FROM swift:5.0.1
 LABEL maintainer="Mithun Ayachit <m0t0rbr3th@gmail.com>"
 LABEL Description="Unofficial Docker image for https://github.com/nicklockwood/SwiftFormat"
 
-COPY --from=builder /tmp/swiftformat/.build/release/swiftformat /usr/local/swiftformat
+COPY --from=builder /tmp/swiftformat/.build/release/swiftformat /usr/local/bin/swiftformat
 
 COPY Dockerfile /Dockerfile
 COPY LICENSE /LICENSE

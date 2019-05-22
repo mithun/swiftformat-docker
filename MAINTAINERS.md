@@ -13,7 +13,7 @@ docker build                                   \
 .
 
 # Test
-docker run --rm mayachit/swiftformat:${SWIFTFORMAT_VERSION} --version
+docker run --rm mayachit/swiftformat:${SWIFTFORMAT_VERSION} swiftformat --version
 
 # Push
 docker login
