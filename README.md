@@ -4,7 +4,8 @@ Unofficial Docker image for [SwiftFormat](https://github.com/nicklockwood/SwiftF
 
 ## Available Tags
 
--   `0.40.10`, `latest` ([_Dockerfile_](https://github.com/mithun/swiftformat-docker/blob/v0.40.10/Dockerfile))
+-   `0.46.2`, `latest` ([_Dockerfile_](https://github.com/mithun/swiftformat-docker/blob/v0.46.2/Dockerfile))
+-   `0.40.10` ([_Dockerfile_](https://github.com/mithun/swiftformat-docker/blob/v0.40.10/Dockerfile))
 -   `0.40.8` ([_Dockerfile_](https://github.com/mithun/swiftformat-docker/blob/v0.40.8/Dockerfile))
 
 ## Usage
